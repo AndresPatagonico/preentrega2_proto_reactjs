@@ -1,0 +1,129 @@
+.CartContainer {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.CartTitle {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.EmptyCart {
+    text-align: center;
+    padding: 50px;
+}
+
+.EmptyCart h2 {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.ButtonBack {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.CartList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+}
+
+.CartItemLeft {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.CartItemImg {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.CartItemInfo h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.1rem;
+}
+
+.CartItemInfo p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.CartItemRight {
+    text-align: right;
+}
+
+.Subtotal {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ButtonRemove {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.CartFooter {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.Total {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.CartActions {
+    display: flex;
+    gap: 15px;
+}
+
+.ButtonClear {
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.ButtonCheckout {
+    background-color: #2ecc71;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}

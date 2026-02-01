@@ -1,0 +1,97 @@
+.NavbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 10;
+}
+
+.NavbarLogo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.NavbarLogo h3 {
+    margin: 0;
+    color: #e67e22;
+    font-size: 24px;
+}
+
+.NavbarLogo span {
+    font-size: 30px;
+}
+
+.NavbarLinks {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Option {
+    text-decoration: none;
+    color: #555;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.ActiveOption {
+    text-decoration: none;
+    color: #e67e22;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 2px solid #e67e22;
+}
+
+.DropdownMenu {
+    position: relative;
+    cursor: pointer;
+}
+
+.DropdownTitle {
+    list-style: none;
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.DropdownTitle:hover {
+    background-color: #eee;
+}
+
+.DropdownContent {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 10px 0;
+    z-index: 100;
+    max-height: 400px; 
+    overflow-y: auto;
+}
+
+.DropdownItem {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background 0.2s;
+    text-transform: capitalize;
+}
+
+.DropdownItem:hover {
+    background-color: #f1f1f1;
+    color: #e67e22;
+}
