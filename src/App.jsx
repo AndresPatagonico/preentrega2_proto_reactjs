@@ -9,7 +9,8 @@ import Checkout from './components/Checkout/Checkout';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/*<BrowserRouter>*/}
+      <BrowserRouter basename="/preentrega2_proto_reactjs">
         <CartProvider>
             <NavBar />
             <Routes>
